@@ -11,10 +11,10 @@ body {
 
 /* header */
 header {
-  width: 1600px;
+  max-width: 1600px;
   /* width: 100%; */
   margin: 0 auto;
-  background-image: url('images/banner/banner1.png');
+  background-image: url("images/banner/banner1.png");
   background-repeat: no-repeat;
   /* background-size: cover; */
 }
@@ -138,11 +138,11 @@ ul li i {
 
 /* call now */
 .call-now-sec {
-  background-image: url('images/watch.png');
+  background-image: url("images/watch.png");
   background-repeat: no-repeat;
 }
 .call-now-container {
-  background-image: url('images/gradient3.png');
+  background-image: url("images/gradient3.png");
   background-repeat: no-repeat;
   padding: 60px 65px;
 }
@@ -238,4 +238,24 @@ footer {
   border: 0;
   border-radius: 8px;
   padding: 20px 35px;
+}
+
+/* responsive style */
+
+/* mobile and small devices */
+@media screen and (max-width: 576px) {
+  header {
+    background-image: none;
+  }
+  .banner-container {
+    width: 100%;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+  .failures-container{
+    flex-direction: column;
+  }
+  .failures-container img{
+    width: 100%;
+  }
 }
