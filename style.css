@@ -244,18 +244,47 @@ footer {
 
 /* mobile and small devices */
 @media screen and (max-width: 576px) {
+  footer,
+  main section {
+    margin-top: 50px;
+  }
+
   header {
     background-image: none;
   }
+  .footer-container,
+  .call-now-container,
+  .text-container,
   .banner-container {
-    width: 100%;
-    justify-content: flex-start;
     padding: 20px;
   }
-  .failures-container{
+  .text-container {
+    margin: 0;
+  }
+  .future-title,
+  .my-plans-title{
+    margin-bottom: 24px;
+  }
+  .plans-container,
+  .footer-container,
+  .failures-container {
     flex-direction: column;
   }
-  .failures-container img{
+  .failures-container img {
     width: 100%;
+  }
+  .plans-container{
+    gap: 25px;
+  }
+  .footer-container {
+    gap: 50px;
+  }
+  .failures-desc,
+  .text-container,
+  .banner-title,
+  .banner-desc,
+  .call-now-title,
+  .future-desc {
+    width: auto;
   }
 }
