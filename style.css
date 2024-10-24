@@ -262,7 +262,7 @@ footer {
     margin: 0;
   }
   .future-title,
-  .my-plans-title{
+  .my-plans-title {
     margin-bottom: 24px;
   }
   .plans-container,
@@ -273,7 +273,7 @@ footer {
   .failures-container img {
     width: 100%;
   }
-  .plans-container{
+  .plans-container {
     gap: 25px;
   }
   .footer-container {
@@ -286,5 +286,24 @@ footer {
   .call-now-title,
   .future-desc {
     width: auto;
+  }
+  .call-now-btn {
+    color: #f3f3f3;
+    background-color: #f15b22;
+  }
+  .call-now-container,
+  .call-now-sec {
+    background-size: 100%;
+  }
+  .call-now-title {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  .sub-input {
+    width: 100%;
+  }
+  .failures-desc,
+  .future-desc {
+    text-align: justify;
   }
 }
